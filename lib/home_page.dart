@@ -77,9 +77,9 @@ class _HomePageState extends State<HomePage> {
           ),
           ...List.generate(widget.elementCount, (i) => TableRow(
               children: [
-                const TableCell(
+                TableCell(
                   verticalAlignment: TableCellVerticalAlignment.middle,
-                  child: Text('1', textAlign: TextAlign.center,),
+                  child: Text('${i+1}', textAlign: TextAlign.center,),
                 ),
                 TableCell(
                   child: TextField(

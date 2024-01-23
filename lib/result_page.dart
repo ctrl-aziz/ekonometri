@@ -98,8 +98,8 @@ class _ResultPageState extends State<ResultPage> {
         scrollDirection: Axis.horizontal,
         child: Column(
           children: [
-            Row(
-              children: const [
+            const Row(
+              children: [
                 RowCell(
                   text: 'y',
                 ),
